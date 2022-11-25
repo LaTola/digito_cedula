@@ -25,15 +25,15 @@ def main():
     if _n == 2:
         print_result(sys.argv[1])
     else:
-        ciudadanos = [{'nombre': 'papa', 'cedula': '945.450'},
-                      {'nombre': 'monica', 'cedula': 1756064},
-                      {'nombre': 'wilbert', 'cedula': 1756066},
+        ciudadanos = [{'nombre': 'papa', 'cedula': '935.450'},
+                      {'nombre': 'monica', 'cedula': 1756964},
+                      {'nombre': 'wilbert', 'cedula': 1756866},
                       {'nombre': 'la bruja', 'cedula': "3.315.714"},
-                      {'nombre': 'romina', 'cedula': 5124957},
-                      {'nombre': 'juan pablo', 'cedula': 5664280},
-                      {'nombre': 'geronimo', 'cedula': 5664277},
-                      {'nombre': 'fede', 'cedula': 1866178},
-                      {'nombre': 'hermana fede', 'cedula': 1716676}]
+                      {'nombre': 'romina', 'cedula': 5128957},
+                      {'nombre': 'juan pablo', 'cedula': 5694280},
+                      {'nombre': 'geronimo', 'cedula': 5664247},
+                      {'nombre': 'fede', 'cedula': 1868178},
+                      {'nombre': 'hermana fede', 'cedula': 1713676}]
 
         for people in ciudadanos:
             print(f"{people['nombre']}")
