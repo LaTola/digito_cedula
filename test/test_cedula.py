@@ -21,7 +21,7 @@ class testCedula(unittest.TestCase):
         print('-------- test de cedulas conocidas ------------')
         cedulas = ["945.450", 1756064, 1756066, "3.315.714",
                    5124957, 5664280, 5664277, "1.866.178", 1716676]
-        verif = [2, 9, 1, 3, 0, 4, 9, 7, 4]
+        verif = [3, 9, 1, 3, 0, 4, 9, 7, 4]
         count = 0
         for ncedula in cedulas:
             c = Cedula(ncedula)
