@@ -1,5 +1,3 @@
-#!/bin/python3
-
 import sys
 from cedula import Cedula
 
@@ -21,8 +19,8 @@ def print_result(nro_cedula):
 def main():
     """_summary_
     """
-    _n = len(sys.argv)
-    if _n == 2:
+    n = len(sys.argv)
+    if n == 2:
         print_result(sys.argv[1])
     else:
         ciudadanos = [{'nombre': 'papa', 'cedula': '935.450'},
