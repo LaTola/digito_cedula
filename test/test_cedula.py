@@ -1,11 +1,10 @@
-#!/bin/python3
-
+from cedula import Cedula
 import unittest
 # To reach parent dir
 import sys
 sys.path.append('../')
-from cedula import Cedula
 ##
+
 
 class testCedula(unittest.TestCase):
 
